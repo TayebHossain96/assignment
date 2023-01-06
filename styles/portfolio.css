@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    height: 70vh;
+    border: 1px solid transparent;
+    background-image: url("../images/banner/banner3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.child{
+    width: 500px;
+    margin-left: auto;
+    margin-top: 200px;
+    margin-right: 100px;
+    text-align: right;
+}
+.father{
+    display: flex;
+    max-width: 1300px;
+    margin:100px auto 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.card img{
+    width: 120px;
+
+}
+.card{
+    width: 22%;
+}
+.ayaan{
+    max-width: 1200px;
+    margin: 100px auto 0;
+    height: 300px;
+    border-radius: 7px;
+    background-image: url("../images/gradient1.png"),url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.foot{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    }
+.kakoli{
+    width: 300px;
+    height: 47px;
+    background-color: transparent;
+    color: white;
+    padding-left: 10px;
+    border: 1px solid white;
+    border-radius: 6px;
+
+}
+.subscribe-btn{
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    background-color:#005FAC;
+    color: white;
+    border-radius: 6px;
+    border: 0;
+}
+.call-btn{
+    margin-top: -20px;
+    height:64px ;
+    width: 164px;
+    font-size: 20px;
+    font-weight: 700;
+    color:#005FAC ;
+    border-radius: 6px;
+    border: 0;
+
+
+}
